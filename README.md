@@ -11,13 +11,20 @@ Pull the git repo and execute Main.py.
 There are two folders:
 "RawData" and "SortedData."
 To add lists of passwords to the dataset, you need to put a txt file with passwords in the "RawData" folder and execute the program:
+
 ![image](https://github.com/user-attachments/assets/a86123d9-ea9c-40bf-a803-673418a494ee)
+
 The file will be sorted, compressed, and stored in the "SortedData" folder.
+
 ![image](https://github.com/user-attachments/assets/ef504dd1-86fe-4721-b591-7055a7bb276a)
 
 To look up passwords, you need to run the program, select the search option, and write the password:
+
 ![image](https://github.com/user-attachments/assets/295c469e-fa91-4a36-bba9-e924226726c8)
+
 ### Additional Info
+If you want to upload a file, make sure that your computer has twice the free storage size of the file. This is required due to the way the algorithm is built. 
+After the data is processed, it will take up only roughly 1/3 of the original file size due to compression.
 
 It took roughly 24 hours for my computer to sort and save 160GB of RockYou2024.
 Lookup time is roughly constant and stays around 1.5 seconds per file. I have achieved this by using a double binary search. 
